@@ -1,0 +1,95 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  background-color: #2B2B2B;
+  height: 200px;
+  width: 100%;
+  display: inline-block;
+}
+
+.username {
+  color: #27B4FF;
+  display: inline-block;
+}
+
+.user-settings {
+  display: inline-block;
+  float:right;
+  background-color: green;
+  width: 300px;
+}
+
+.card-holder {
+  display: flex;
+  justify-content: space-around;;
+  /*flex-direction: column;*/
+  flex-wrap: wrap;
+
+}
+
+.card-top {
+  background-blend-mode: multiply;
+  background-color: grey;
+  height: 130px;
+  /*background-color: lightblue;*/
+  background-position: center;
+  background-size: cover;
+}
+
+.card-bottom {
+  background-color: grey;
+}
+
+.cards {
+  /*display: inline-block;*/
+  margin-left: 1%;
+  flex-wrap: wrap;
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+}
+
+.one {
+  background-image: url('images/archer.jpg');
+}
+
+.two {
+  background-image: url('images/archer.jpg');
+}
+
+.three {
+  background-image: url('images/archer.jpg');
+}
+
+.four {
+  background-image: url('images/archer.jpg');
+}
+
+.five {
+  background-image: url('images/archer.jpg');
+}
+
+.six {
+  background-image: url('images/archer.jpg');
+}
+
+.seven {
+  background-image: url('images/archer.jpg');
+}
+
+.eight {
+  background-image: url('images/archer.jpg');
+}
+
+.arrow {
+  height: 40px;
+  width: 40px;
+}
+
+h2 {
+  margin-left: 5%;
+
+}

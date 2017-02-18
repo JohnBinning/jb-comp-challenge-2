@@ -10,6 +10,23 @@ header {
   display: inline-block;
 }
 
+.nav-icons {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+
+.nav-links {
+  display: inline-block;
+  background-color: coral;
+  margin-top: 10%;
+  width: 150px;
+}
+
+.nav-description {
+  display: inline-block;
+}
+
 .username {
   color: #27B4FF;
   display: inline-block;
@@ -22,12 +39,16 @@ header {
   width: 300px;
 }
 
+.settings-images {
+  width: 20px;
+  height: 20px;
+}
+
 .card-holder {
   display: flex;
   justify-content: space-around;;
   /*flex-direction: column;*/
   flex-wrap: wrap;
-
 }
 
 .card-top {
@@ -41,6 +62,15 @@ header {
 
 .card-bottom {
   background-color: grey;
+}
+
+.link {
+  background-color: #EFEFEF;
+  height: 40px;
+}
+
+.attachment-number {
+  color: #2FB8FE;
 }
 
 .cards {
@@ -57,31 +87,31 @@ header {
 }
 
 .two {
-  background-image: url('images/archer.jpg');
+  background-image: url('images/lana.jpg');
 }
 
 .three {
-  background-image: url('images/archer.jpg');
+  background-image: url('images/cheryl.jpg');
 }
 
 .four {
-  background-image: url('images/archer.jpg');
+  background-image: url('images/Ciryl.png');
 }
 
 .five {
-  background-image: url('images/archer.jpg');
+  background-image: url('images/krieger.jpg');
 }
 
 .six {
-  background-image: url('images/archer.jpg');
+  background-image: url('images/malory.jpg');
 }
 
 .seven {
-  background-image: url('images/archer.jpg');
+  background-image: url('images/pam.jpg');
 }
 
 .eight {
-  background-image: url('images/archer.jpg');
+  background-image: url('images/ray.jpg');
 }
 
 .arrow {

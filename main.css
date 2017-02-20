@@ -53,6 +53,7 @@ header {
   margin-top: 100px;
   position: absolute;
   right: 22px;
+  top: 0;
 }
 
 .username {
@@ -61,7 +62,7 @@ header {
 }
 
 .user-settings {
-  display: inline-block;
+  /*display: inline-block;*/
   float:right;
   margin-right: 20px;
   /*background-color: green;*/
@@ -265,12 +266,6 @@ h3 {
   margin-left: 0;
 }
 
-#logo {
-  position: absolute;
-  float: right;
-  top: 10px;
-}
-
 h1 {
   margin-left: 42%;
 }
@@ -286,38 +281,39 @@ header {
 
 .nav-description {
   display: block;
-  font-size: .5em;
+  font-size: .6em;
 }
 
 .nav-icons {
-  height: 30px;
-  width: 30px;
+  height: 35px;
+  width: 35px;
   display: inline-block;
 }
 
 .user-settings {
   float: right;
   margin-left: 10px;
+  margin-right: 15%;
   margin-top: 5px;
-  /*display: none;*/
+  display: flex;
+}
+
+.settings-images {
+  height: 26px;
+  width: 26px;
+  margin-top: 5px;
+  margin-left: 2px;
 }
 
 .username {
-  font-size: .8em;
+  font-size: .85em;
+  margin-top: 15px;
 }
 
 .nav-links {
   position: absolute;
-  /*margin-left: 10px;
-  margin-bottom: 7px;*/
   display: inline-block;
-  /*display: flex;*/
-  /*flex-direction: row;*/
-
-  /*margin: 0;*/
   width: 30px;
-  /*margin-top: 50px;
-  margin-left: 20px;*/
   top: 90px;
   margin: 0;
 }
@@ -329,27 +325,24 @@ header {
 }
 
 .nav-shares {
-  /*margin-top: 40px;*/
-  left: 0;
+  left: 10px;
 }
 
 .playlists {
-  /*margin-top: 30px;*/
-  left: 50px;
+  left: 100px;
 }
 
 .playlist-icon{
-  margin-left: 2px;
+  margin-left: 1px;
 }
 
 .video-icon {
-  margin-left: 19px;
+  margin-left: 20px;
 }
 
 .videos {
-  /*margin-top: 30px;*/
   width: 100px;
-  left: 100px;
+  left: 180px;
 }
 
 #logo {
@@ -357,7 +350,10 @@ header {
   width: 83px;
   margin-top: 10px;
   left: 10px;
-  /*display: none;*/
+}
+
+h1 {
+  margin-left: 38%;
 }
 
 }

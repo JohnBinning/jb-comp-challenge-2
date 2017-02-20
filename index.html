@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Danger Zone</title>
     <link href="normalize.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <link href="main.css" type="text/css" rel="stylesheet">
   </head>
   <body>
@@ -14,18 +15,21 @@
         <p class="username">Barry OtherBarry</p>
         <img class="settings-images" src="images/down-arrow.svg">
       </article>
-      <article class="nav-links">
-        <img class="nav-icons" src="images/shares.svg">
-        <p class="nav-description">Shares</p>
-      </article>
-      <article class="nav-links">
-        <img class="nav-icons" src="images/note.svg">
-        <p class="nav-description">Playlists</p>
-      </article>
-      <article class="nav-links">
-        <img class="nav-icons" src="images/userblue.svg">
-        <p class="nav-description">Personal Videos</p>
-      </article>
+      <section id="nav-links-wrapper">
+        <article class="nav-links nav-shares">
+          <img class="nav-icons shares" src="images/shares.svg">
+          <p class="nav-description">Shares</p>
+        </article>
+        <article class="nav-links playlists">
+          <img class="nav-icons playlist-icon" src="images/note.svg">
+          <p class="nav-description playlists">Playlists</p>
+        </article>
+        <article class="nav-links videos">
+          <img class="nav-icons video-icon" src="images/userblue.svg">
+          <p class="nav-description videos">Personal Videos</p>
+        </article>
+      </section>
+      <img id="logo" src="images/logo.jpg">
     </header>
       <h1>Shares
       </h1>
@@ -33,15 +37,19 @@
       <article class="cards">
         <section class="card-top one">
           <img class="arrow" src="images/right-arrow.png">
+          <div class="view-flexer">
+            <p class="views">Views</p>
+            <p class="views-number">02</p>
+          </div>
         </section>
         <section class="card-bottom">
           <h2>Sterling Archer</h2>
-          <p>Monday 01/23/16 10:22am</p>
+          <p class="date">Monday 01/23/16 10:22am</p>
           <div class="link">
-            <p>www.phrasing/boom.com</p>
+            <p class="link-width">http://www.phrasing/boom/nailedit.com</p>
           </div>
           <h3>Playlist</h3>
-          <p>Name of Playlist</p>
+          <p class="playlist-name">Name of Playlist</p>
           <h3>Attachments</h3>
           <p class="attachment-number">04</p>
         </section>
@@ -49,15 +57,19 @@
       <article class="cards">
         <section class="card-top two">
           <img class="arrow" src="images/right-arrow.png">
+          <div class="view-flexer">
+            <p class="views">Views</p>
+            <p class="views-number">02</p>
+          </div>
         </section>
         <section class="card-bottom">
           <h2>Lana Kane</h2>
-          <p>Monday 01/23/16 10:22am</p>
+          <p class="date">Monday 01/23/16 10:22am</p>
           <div class="link">
-            <p>www.dangerzone.com</p>
+            <p class="link-width">http://www.dangerzone.com</p>
           </div>
           <h3>Playlist</h3>
-          <p>Name of Playlist</p>
+          <p class="playlist-name">Name of Playlist</p>
           <h3>Attachments</h3>
           <p class="attachment-number">04</p>
         </section>
@@ -65,15 +77,19 @@
       <article class="cards">
         <section class="card-top three">
           <img class="arrow" src="images/right-arrow.png">
+          <div class="view-flexer">
+            <p class="views">Views</p>
+            <p class="views-number">02</p>
+          </div>
         </section>
         <section class="card-bottom">
           <h2>Cheryl Tunt</h2>
-          <p>Monday 01/23/16 10:22am</p>
+          <p class="date">Monday 01/23/16 10:22am</p>
           <div class="link">
-            <p>www.tuntexpress.com</p>
+            <p class="link-width">http://www.tuntexpress.com</p>
           </div>
           <h3>Playlist</h3>
-          <p>Name of Playlist</p>
+          <p class="playlist-name">Name of Playlist</p>
           <h3>Attachments</h3>
           <p class="attachment-number">04</p>
         </section>
@@ -81,15 +97,19 @@
       <article class="cards">
         <section class="card-top four">
           <img class="arrow" src="images/right-arrow.png">
+          <div class="view-flexer">
+            <p class="views">Views</p>
+            <p class="views-number">02</p>
+          </div>
         </section>
         <section class="card-bottom">
           <h2>Ciryl Figgis</h2>
-          <p>Monday 01/23/16 10:22am</p>
+          <p class="date">Monday 01/23/16 10:22am</p>
           <div class="link">
-            <p>www.disappoint.com</p>
+            <p class="link-width">http://www.disappoint.com</p>
           </div>
           <h3>Playlist</h3>
-          <p>Name of Playlist</p>
+          <p class="playlist-name">Name of Playlist</p>
           <h3>Attachments</h3>
           <p class="attachment-number">04</p>
         </section>
@@ -97,15 +117,19 @@
       <article class="cards">
         <section class="card-top five">
           <img class="arrow" src="images/right-arrow.png">
+          <div class="view-flexer">
+            <p class="views">Views</p>
+            <p class="views-number">02</p>
+          </div>
         </section>
         <section class="card-bottom">
           <h2>Algernop Krieger</h2>
-          <p>Monday 01/23/16 10:22am</p>
+          <p class="date">Monday 01/23/16 10:22am</p>
           <div class="link">
-            <p>www.totallynotarobot.com</p>
+            <p class="link-width">http://www.totallynotarobot/101011.com</p>
           </div>
           <h3>Playlist</h3>
-          <p>Name of Playlist</p>
+          <p class="playlist-name">Name of Playlist</p>
           <h3>Attachments</h3>
           <p class="attachment-number">04</p>
         </section>
@@ -113,15 +137,19 @@
       <article class="cards">
         <section class="card-top six">
           <img class="arrow" src="images/right-arrow.png">
+          <div class="view-flexer">
+            <p class="views">Views</p>
+            <p class="views-number">02</p>
+          </div>
         </section>
         <section class="card-bottom">
           <h2>Malory Archer</h2>
-          <p>Monday 01/23/16 10:22am</p>
+          <p class="date">Monday 01/23/16 10:22am</p>
           <div class="link">
-            <p>www.thisishowyougetants.com</p>
+            <p class="link-width">http://www.thisishowyougetants.com/dontleavefoodout/</p>
           </div>
           <h3>Playlist</h3>
-          <p>Name of Playlist</p>
+          <p class="playlist-name">Name of Playlist</p>
           <h3>Attachments</h3>
           <p class="attachment-number">04</p>
         </section>
@@ -129,15 +157,19 @@
       <article class="cards">
         <section class="card-top seven">
           <img class="arrow" src="images/right-arrow.png">
+          <div class="view-flexer">
+            <p class="views">Views</p>
+            <p class="views-number">02</p>
+          </div>
         </section>
         <section class="card-bottom">
           <h2>Pam Poovey</h2>
-          <p>Monday 01/23/16 10:22am</p>
+          <p class="date">Monday 01/23/16 10:22am</p>
           <div class="link">
-            <p>www.inappropes.com</p>
+            <p class="link-width">http://www.inappropes.com</p>
           </div>
           <h3>Playlist</h3>
-          <p>Name of Playlist</p>
+          <p class="playlist-name">Name of Playlist</p>
           <h3>Attachments</h3>
           <p class="attachment-number">04</p>
         </section>
@@ -145,18 +177,24 @@
       <article class="cards">
         <section class="card-top eight">
           <img class="arrow" src="images/right-arrow.png">
+          <div class="view-flexer">
+            <p class="views">Views</p>
+            <p class="views-number">02</p>
+          </div>
         </section>
         <section class="card-bottom">
           <h2>Ray Gillette</h2>
-          <p>Monday 01/23/16 10:22am</p>
+          <p class="date">Monday 01/23/16 10:22am</p>
           <div class="link">
-            <p>www.dukes.com</p>
+            <p class="link-width">http://www.dukes.com</p>
           </div>
           <h3>Playlist</h3>
-          <p>Name of Playlist</p>
+          <p class="playlist-name">Name of Playlist</p>
           <h3>Attachments</h3>
           <p class="attachment-number">04</p>
         </section>
+      </article>
+      <article class="white-card cards">
       </article>
     </section>
   </body>

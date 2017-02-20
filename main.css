@@ -62,11 +62,8 @@ header {
 }
 
 .user-settings {
-  /*display: inline-block;*/
   float:right;
   margin-right: 20px;
-  /*background-color: green;*/
-  /*width: 300px;*/
 }
 
 .settings-images {
@@ -92,7 +89,6 @@ h1 {
   background-blend-mode: multiply;
   background-color: grey;
   height: 130px;
-  /*background-color: lightblue;*/
   background-position: center;
   background-size: cover;
 }
@@ -115,14 +111,12 @@ h1 {
 .views, .views-number {
   color: white;
   float: right;
-  /*display: block;*/
-  /*width: 15px;*/
   position: relative;
 }
 
 .views {
   display: block;
-  margin-top: 5px;
+  margin-top: 4px;
   margin-bottom: 0;
   font-weight: 300;
   font-size: .8em;
@@ -132,8 +126,6 @@ h1 {
   display: block;
   margin-top: 0;
   font-size: 1.7em;
-  /*margin-right: 0px;*/
-
 }
 
 .card-bottom {
@@ -164,11 +156,9 @@ h1 {
 }
 
 .cards {
-  /*margin-left: 1%;*/
   margin-bottom: 10px;
   flex-wrap: wrap;
   width: 290px;
-  /*display: flex;*/
   flex-direction: column;
   box-shadow: 1px 1px 2px 1px #BDBDBD;
   background-color: #FFFFFF;
@@ -218,7 +208,7 @@ h1 {
 .arrow {
   height: 50px;
   width: 50px;
-  margin-top: 7px;
+  margin-top: 9px;
   margin-left: 7px;
 }
 
@@ -249,10 +239,8 @@ h3 {
 
 .date {
   color: #8B8B8B;
-  /*font-weight: 300;*/
   font-size: .7em;
 }
-
 
 @media screen and (max-width: 660px) {
 

@@ -10,17 +10,17 @@ body {
 
 header {
   background-color: #2B2B2B;
+  display: inline-block;
   height: 160px;
   width: 100%;
-  display: inline-block;
 }
 
 .nav-icons {
   display: inline-block;
   height: 20px;
-  width: 20px;
   position: relative;
   top: 4px;
+  width: 20px;
 }
 
 .nav-links {
@@ -36,13 +36,13 @@ header {
 }
 
 .shares-description:hover {
-  color: #8B8B8B;
   border-bottom: 1px solid #27B4FF;
+  color: #8B8B8B;
 }
 
 .playlists-description:hover, .nav-videos:hover {
-  color: white;
   border-bottom: 1px solid #27B4FF;
+  color: white;
 }
 
 .nav-videos, .playlists-description {
@@ -84,16 +84,16 @@ header {
 
 .settings-images {
   cursor: pointer;
-  width: 20px;
   height: 20px;
   position: relative;
   top: 4px;
+  width: 20px;
 }
 
 h1 {
-  margin-left: 20px;
   color: #545454;
   font-size: 1.8em;
+  margin-left: 20px;
 }
 
 .card-holder {
@@ -105,9 +105,9 @@ h1 {
 .card-top {
   background-blend-mode: multiply;
   background-color: grey;
-  height: 130px;
   background-position: center;
   background-size: cover;
+  height: 130px;
 }
 
 .cards:hover > .card-top{
@@ -116,11 +116,11 @@ h1 {
 }
 
 .view-flexer {
+  align-items: center;
   display: flex;
   flex-direction: column;
   float: right;
   justify-content: center;
-  align-items: center;
   margin-right: 7px;
   margin-top: 7px;
 }
@@ -141,8 +141,8 @@ h1 {
 
 .views-number {
   display: block;
-  margin-top: 0;
   font-size: 1.7em;
+  margin-top: 0;
 }
 
 .card-bottom {
@@ -151,19 +151,19 @@ h1 {
 
 .link {
   background-color: #EFEFEF;
+  color: #7f7a7a;
   height: 40px;
   margin-left: 30px;
   margin-bottom: 20px;
   margin-top: 20px;
   width: 80%;
-  color: #7f7a7a;
 }
 
 .link-width {
   cursor: pointer;
   max-width: 30ch;
-  word-break: break-all;
   white-space: normal;
+  word-break: break-all;
 }
 
 .link-width:hover {
@@ -172,18 +172,18 @@ h1 {
 
 .attachment-number {
   color: #2FB8FE;
+  font-size: 1.6em;
   margin-left: 5%;
   margin-top: 2px;
-  font-size: 1.6em;
 }
 
 .cards {
-  margin-bottom: 10px;
-  flex-wrap: wrap;
-  width: 290px;
-  flex-direction: column;
-  box-shadow: 1px 1px 2px 1px #BDBDBD;
   background-color: #FFFFFF;
+  box-shadow: 1px 1px 2px 1px #BDBDBD;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 290px;
 }
 
 .cards:hover {
@@ -223,46 +223,46 @@ h1 {
 }
 
 .white-card {
-  height: 0;
   box-shadow: none;
+  height: 0;
 }
 
 .arrow {
   cursor: pointer;
   height: 50px;
-  width: 50px;
-  margin-top: 9px;
   margin-left: 7px;
+  margin-top: 9px;
+  width: 50px;
 }
 
 h2, h3 {
-  margin-left: 5%;
   margin-bottom: 2px;
+  margin-left: 5%;
 }
 
 h2 {
-  font-size: 1em;
   color: #4f4e4e;
+  font-size: 1em;
 }
 
 h3 {
-  font-size: .65em;
   color: #4f4e4e;
+  font-size: .65em;
 }
 
 .playlist-name, .date {
-  margin-top: 2px;
   margin-left: 5%;
+  margin-top: 2px;
 }
 
 .playlist-name {
-  font-size: 1em;
   color: #4f4e4e;
+  font-size: 1em;
 }
 
 .date {
-  color: #8B8B8B;
   font-size: .7em;
+  color: #8B8B8B;
 }
 
 @media screen and (max-width: 660px) {
@@ -296,24 +296,24 @@ header {
 }
 
 .nav-icons {
+  display: inline-block;
   height: 35px;
   width: 35px;
-  display: inline-block;
 }
 
 .user-settings {
+  display: flex;
   float: right;
   margin-left: 10px;
   margin-right: 5%;
   margin-top: 5px;
-  display: flex;
 }
 
 .settings-images {
   height: 26px;
-  width: 26px;
-  margin-top: 5px;
   margin-left: 2px;
+  margin-top: 5px;
+  width: 26px;
 }
 
 .username {
@@ -322,16 +322,15 @@ header {
 }
 
 .nav-links {
-  position: absolute;
   display: inline-block;
-  width: 30px;
-  top: 90px;
   margin: 0;
+  position: absolute;
+  top: 90px;
+  width: 30px;
 }
 
 .nav-links-wrapper {
   display: flex;
-  flex-direction: row;
   width: 100%;
 }
 
@@ -358,9 +357,9 @@ header {
 
 #logo {
   height: 30px;
-  width: 83px;
-  margin-top: 10px;
   left: 6.5%;
+  margin-top: 10px;
+  width: 83px;
 }
 
 h1 {

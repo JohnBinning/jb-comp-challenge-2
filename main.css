@@ -24,22 +24,28 @@ header {
 }
 
 .nav-links {
+  color: white;
+  cursor: pointer;
   display: inline-block;
-  /*background-color: coral;*/
   margin-top: 100px;
   width: 150px;
-  color: white;
 }
 
 .shares {
   margin-left: 20px;
 }
 
-.playlists {
+.shares-description:hover {
   color: #8B8B8B;
+  border-bottom: 1px solid #27B4FF;
 }
 
-.videos {
+.playlists-description:hover, .nav-videos:hover {
+  color: white;
+  border-bottom: 1px solid #27B4FF;
+}
+
+.nav-videos, .playlists-description {
   color: #8B8B8B;
 }
 
@@ -48,17 +54,27 @@ header {
 }
 
 #logo {
-  width: 110px;
+  cursor: pointer;
   height: 40px;
   margin-top: 100px;
   position: absolute;
   right: 22px;
   top: 0;
+  width: 110px;
+}
+
+#logo:hover {
+  border: 1px solid white;
 }
 
 .username {
   color: #27B4FF;
+  cursor: pointer;
   display: inline-block;
+}
+
+.username:hover {
+  border-bottom: 1px solid #27B4FF;
 }
 
 .user-settings {
@@ -67,6 +83,7 @@ header {
 }
 
 .settings-images {
+  cursor: pointer;
   width: 20px;
   height: 20px;
   position: relative;
@@ -143,6 +160,7 @@ h1 {
 }
 
 .link-width {
+  cursor: pointer;
   max-width: 30ch;
   word-break: break-all;
   white-space: normal;
@@ -206,6 +224,7 @@ h1 {
 }
 
 .arrow {
+  cursor: pointer;
   height: 50px;
   width: 50px;
   margin-top: 9px;
@@ -223,7 +242,7 @@ h2 {
 }
 
 h3 {
-  font-size: .7em;
+  font-size: .65em;
   color: #4f4e4e;
 }
 
@@ -281,7 +300,7 @@ header {
 .user-settings {
   float: right;
   margin-left: 10px;
-  margin-right: 15%;
+  margin-right: 5%;
   margin-top: 5px;
   display: flex;
 }
@@ -313,11 +332,13 @@ header {
 }
 
 .nav-shares {
-  left: 10px;
+  /*left: 10px;*/
+  left: 6%;
 }
 
 .playlists {
-  left: 100px;
+  /*left: 100px;*/
+  left: 42.5%;
 }
 
 .playlist-icon{
@@ -330,14 +351,15 @@ header {
 
 .videos {
   width: 100px;
-  left: 180px;
+  /*left: 180px;*/
+  left: 75%;
 }
 
 #logo {
   height: 30px;
   width: 83px;
   margin-top: 10px;
-  left: 10px;
+  left: 6.5%;
 }
 
 h1 {

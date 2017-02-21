@@ -166,6 +166,10 @@ h1 {
   white-space: normal;
 }
 
+.link-width:hover {
+  color: #2FB8FE;
+}
+
 .attachment-number {
   color: #2FB8FE;
   margin-left: 5%;
@@ -332,12 +336,10 @@ header {
 }
 
 .nav-shares {
-  /*left: 10px;*/
   left: 6%;
 }
 
 .playlists {
-  /*left: 100px;*/
   left: 42.5%;
 }
 
@@ -351,7 +353,6 @@ header {
 
 .videos {
   width: 100px;
-  /*left: 180px;*/
   left: 75%;
 }
 
